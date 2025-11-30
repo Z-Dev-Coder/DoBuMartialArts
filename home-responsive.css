@@ -337,13 +337,13 @@ footer ul li{
 }
 
 .content-text .text-section{
-  width:55%;
+  width:50%;
   padding:1rem 1.8rem 1rem 1.5rem;
 }
 
 .text-section .p-font{
   font-size: .8rem;
-  letter-spacing: .15rem;
+  letter-spacing: .1rem;
   line-height: 1.5rem;
 }
 
