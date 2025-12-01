@@ -1,3 +1,7 @@
+  .form-heading{
+    font-size: .85rem;
+  }
+
 @media(min-width:320){
   .right-section{
     width:210px;

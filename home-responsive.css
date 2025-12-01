@@ -197,12 +197,9 @@ ul li{
   flex-direction: row;
   justify-content:space-evenly;
   gap: .5rem;
+  flex-wrap: nowrap;
 }
 
-.facilities-container .box{
-  width:120px;
-  height:120px;
-}
 
 .facilities-container .box .content-section{
   padding:10px 5px 10px;
@@ -271,12 +268,23 @@ ul li{
 }
 
 .logo-carousel{
+  display: flex;
   margin:0;
   padding: .8rem 0 .8rem 0;
 }
 
+.logo-group{
+  padding-right: 3rem;
+  gap:3rem;
+}
+
+.logo-group .card{
+  flex:0 0 5em;
+  height:2.5em;
+}
+
 .pricing-section{
-  margin-top: 1rem;
+  margin: 1rem 0 0 0;
   width:100vw;
 }
 
@@ -337,15 +345,20 @@ ul li{
 }
 
 .odd-card1 li{
-  line-height: 1.2rem;
+  font-size: .7rem;
+  line-height: 1.25rem;
 }
 
 .odd-card2 li{
-  line-height: 1rem;
+  line-height: 1.1rem;
 }
 
 .odd-card3 li{
   line-height: 1.1rem;
+}
+
+.odd-card5 li{
+  line-height: 1.2rem;
 }
 
 .instructor-img-group{
@@ -519,8 +532,8 @@ nav{
 }
 
 .facilities-container .box{
-  width:200px;
-  height:200px;
+  height:150px;
+  width:150px;
 }
 
 .facilities-container .facility-name{
@@ -614,10 +627,19 @@ nav{
 .card-group .plan-card:hover{
   transform:translateY(-1.1rem);
 }
+.odd-card1 li{
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
 
 .odd-card2 li{
   line-height: 1.1rem;
 }
+
+.odd-card5 li{
+  line-height: 1.6rem;
+}
+
 .special-plans .content-section{
   padding:3rem 0 1.5rem 0;
 }
@@ -699,6 +721,10 @@ footer ul li{
   .text-section .p-font{
   line-height: 1.6rem;
 }
+
+.facilities-container{
+  padding:0 4rem;
+}
 }
 
 @media(min-width:1300px){
@@ -716,6 +742,20 @@ footer ul li{
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
+
+.facilities-container{
+  gap: 1.5rem;
+}
+
+.facilities-container .box{
+  width:180px;
+  height:180px;
+}
+
+.content-text .text-section{
+  width:54%;
+}
+
 
 .logo-carousel{
   margin:2rem 0;
@@ -859,11 +899,8 @@ footer ul li{
 }
 
 .odd-card1 li{
+  font-size: 1rem;
   line-height: 1.4rem;
-}
-
-.odd-card2 li{
-  line-height: 1.5rem;
 }
 
 .odd-card2 li{
@@ -871,6 +908,10 @@ footer ul li{
 }
 .odd-card5 li{
   line-height: 1.7rem;
+}
+
+.odd-card3 li{
+  line-height: 1.6rem;
 }
 
 .instructor-description{

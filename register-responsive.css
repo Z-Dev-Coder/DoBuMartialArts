@@ -12,6 +12,10 @@
 
 @media (min-width:768px){
 
+  .register-container::before{
+  background-color: rgba(12, 12, 12, 0.351);
+}
+
 .form-container{
   width:90%;
   flex-direction: row;
@@ -20,8 +24,11 @@
   padding:0;
   align-items: center;
 }
-
+.mobile-heading{
+  display: none;
+}
 .left-section{
+  display: flex;
   width:60%;
   margin: 0;
   padding:0;

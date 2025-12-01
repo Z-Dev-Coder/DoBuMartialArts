@@ -19,17 +19,22 @@
   left:0;
   width:100%;
   height:100%;
-  background-color: rgba(12, 12, 12, 0.351);
+  background-color: rgba(12, 12, 12, 0.676);
 }
 
 .form-container{
   width:100%;
-  height: 100%;
+  height:auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(6, 6, 6, 0.555);
+  background-color: transparent;
   padding:1rem 2.8rem;
+  gap:.8rem;
+}
+
+.mobile-heading{
+  z-index: 10;
 }
 
 .left-section{
@@ -40,12 +45,13 @@
   justify-content: center;
   z-index: 5;
   padding-bottom: 1rem;
+    display: none;
 }
 
 .form-heading{
   text-align: center;
   margin:.6rem 0 .4rem 0;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 400;
   letter-spacing: .1rem;
 }
